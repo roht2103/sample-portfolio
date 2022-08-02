@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Gentium+Plus&family=Kanit&family=Mulish:wght@200&family=Roboto+Condensed&display=swap" rel:"stylesheet");
+  
+body{
+    font-family: 'Cormorant SC', serif;
+    margin: 0%;
+}
+
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav-name{
+   
+    font-size: 30px;
+}
+
+
+
+.ul{
+    list-style: none;
+    float: right;
+    padding-right: 5rem;
+
+}
+
+.nav-list{
+    display: inline;
+    padding-right: 2rem;
+}
