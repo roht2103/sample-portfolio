@@ -10,40 +10,31 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <nav class="nav-proj">
-      <div class="logo">
-        <h4>rohit |</h4>
-      </div>
-      <ul class="nav-links">
-        <li><a href="homepage.html">home</a></li>
-        <li><a class="active-link" href="projects.html">projects</a></li>
-        <li><a href="blogs.html">blogs</a></li>
-      </ul>
-    </nav>
-
-    <div
-      id="vanta"
-      style="height: 100vh"
-      class="bg-animation"
-      style="position: relative"
-    >
-      <script>
-        VANTA.GLOBE({
-          el: "#vanta",
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          minHeight: 200.0,
-          minWidth: 200.0,
-          scale: 1.0,
-          scaleMobile: 1.0,
-          color: 0xe3d4d4,
-          color2: 0xcabfbf,
-          backgroundColor: 0xfdf8f3,
-          size: 1,
-        });
-      </script>
+    <div id="vanta" style="height: 100vh" style="position: relative">
+      <nav class="nav-proj">
+        <div class="logo">
+          <h4>rohit |</h4>
+        </div>
+        <ul class="nav-links">
+          <li><a href="homepage.html">home</a></li>
+          <li><a href="projects.html">projects</a></li>
+          <li><a href="blogs.html">blogs</a></li>
+        </ul>
+      </nav>
+      <h1
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-top: 2vh;
+          font-family: sans-serif;
+          letter-spacing: 2px;
+        "
+      >
+        My Projects
+      </h1>
     </div>
-    <h1>Projects</h1>
+
+    <script src="app.js"></script>
   </body>
 </html>

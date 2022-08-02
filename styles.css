@@ -17,7 +17,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 12vh;
     /* background-color: #553c64; */
     background-image: url('demo image.jpg');
     font-family: 'Poppins', sans-serif;
@@ -28,8 +28,8 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
-    background-color: #553c644e;
+    min-height: 12vh;
+    background-color: #553c642d;
     /* background-image: url('demo image.jpg'); */
     font-family: 'Poppins', sans-serif;
     border-bottom: 2px solid black;
@@ -39,8 +39,8 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
-    background-color: #553c644e;
+    min-height: auto;
+    background-color: #553c6438;
     /* background-image: url('demo image.jpg'); */
     font-family: 'Poppins', sans-serif;
     border-bottom: 2px solid black;
@@ -56,7 +56,7 @@ body{
 .nav-links{
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 40%;
 }
 
 .nav-links li{
@@ -64,13 +64,10 @@ body{
 }
 
 .nav-links a{
-    /* color: white; */
+    color: white;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
-.active-link{
-    text-decoration:double ; 
-}
