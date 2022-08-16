@@ -47,7 +47,9 @@ body{
     background-color: #553c6438;
     /* background-image: url('demo image.jpg'); */
     font-family: 'Poppins', sans-serif;
-    border-bottom: 2px solid black;
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: 5px 10px gray;
 }
 
 .logo{
