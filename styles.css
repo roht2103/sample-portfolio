@@ -7,7 +7,9 @@
 }
 
 body{
-     background-image: url('bg.jpg');
+     /* background-image: url('bg.jpg'); */
+     /* background: url('vid.mp4'); */
+     height: 100%;
      background-size: cover;
      background-repeat: no-repeat;
      height:100vh ;
@@ -17,9 +19,11 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color:  #FFC700;
+
     min-height: 12vh;
     /* background-color: #553c64; */
-    background-image: url('demo image.jpg');
+    /* background */
     font-family: 'Poppins', sans-serif;
     border-bottom: 2px solid black;
 }
@@ -39,7 +43,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: auto;
+    min-height: 12vh;
     background-color: #553c6438;
     /* background-image: url('demo image.jpg'); */
     font-family: 'Poppins', sans-serif;
