@@ -9,17 +9,20 @@
 body{
      /* background-image: url('bg.jpg'); */
      /* background: url('vid.mp4'); */
-     height: 100%;
+     height: 100vh;
      background-size: cover;
      background-repeat: no-repeat;
-     height:100vh ;
+     overflow: hidden;
 }
 
-.nav-home{
+.nav{
+    z-index: 1000;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:  #FFC700;
+    background-color: #553c642d;
+
+    /* background-color:  #FFC700; */
 
     min-height: 12vh;
     /* background-color: #553c64; */
@@ -80,3 +83,20 @@ body{
     /* font-size: 14px; */
 }
 
+
+.overlay {
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+[aria-hidden="true"] {
+    display: none;
+}
+
+[aria-hidden="false"] {
+    display: block;
+}
