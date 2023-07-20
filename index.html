@@ -33,11 +33,16 @@
       >
         My Homepage
       </h1>
-      <h1>welckome</h1>
+      <h1 id="output"></h1>
 
       <script>
-        let user=prompt("Enter your name=");
-      </script>
+        window.onload = function(){
+            var name = prompt("What's your name?");
+            name="welcome "+name;
+        
+            document.getElementById('output').innerHTML = name;
+        };
+        </script>
     </div>
 
     <script src="app.js"></script>
